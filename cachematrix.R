@@ -3,7 +3,11 @@
 # than compute it repeatedly
 
 ## this function creates a special "matrix" object that can cache its inverse
+###########################################
+#### you have to install MASS package in RStrudio > go to package and add it to test the code
+###########################################
 
+library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
   #Two values are stored, the Matrix and its inverse
   matrix <- NULL
